@@ -1,10 +1,9 @@
 {
   "name": "touchbar",
   "main": "./lib/touchbar",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Add touchbar elements to atom",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "touchbar:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
