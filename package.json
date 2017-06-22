@@ -2,7 +2,7 @@
   "name": "touchbar",
   "main": "./lib/touchbar",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Add touchbar elements to atom",
   "keywords": [
   ],
   "activationCommands": {
