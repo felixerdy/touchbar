@@ -7,14 +7,15 @@ Add touchbar elements to atom
 __Current feature:__
 - (Un)comment code
 - Toggle Command Palette
-- Change commands in settings
-- Change button colors
+- Color picker
+- spacer
+- Change items in `lib/config.json`
+- customize items (commands, labels, colors)
 
 ![touchbar screenshot](touch_screenshot.png)
 
 ## TODO:
-- ~~[ ] add buttons via settings~~
-- [ ] move all settings to seperate window [touchbar-edit-view.js](touchbar-edit-view.js)
+- [ ] move all settings to seperate window [touchbar-edit-view.js](lib/touchbar-edit-view.js)
   - Add buttons
   - Change buttons (label, command, color)
   - Different Profiles

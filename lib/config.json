@@ -1,0 +1,32 @@
+{
+  "elements": [
+    {
+      "name": "my-new-label",
+      "type": "label",
+      "label": "my 🔥 label",
+      "color": "#FF9300"
+    },
+    {
+      "name": "spacer",
+      "type": "spacer",
+      "size": "small"
+    },
+    {
+      "name": "comment-button",
+      "type": "button",
+      "label": "//",
+      "command": "editor:toggle-line-comments",
+      "color": "#5712d6"
+    },
+    {
+      "name": "toggle-command-palette",
+      "type": "button",
+      "label": "🎨",
+      "command": "command-palette:toggle"
+    },
+    {
+      "name": "color-picker",
+      "type": "color-picker"
+    }
+  ]
+}

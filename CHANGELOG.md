@@ -5,3 +5,6 @@
 ## 0.3.4 - First Release
 * first edit window implementation
 * Change background colors of buttons
+
+## 0.3.6 - Initial customization
+* change touchbar items in `lib/config.json`
