@@ -4,7 +4,13 @@
 
 Add touchbar elements to atom
 
-__Current feature:__
+## Installation
+`apm install touchbar`
+
+## How to use
+Press `shift-alt-o` to toggle touchbar
+
+## Current features:
 - (Un)comment code
 - Toggle Command Palette
 - Color picker
@@ -16,7 +22,7 @@ __Current feature:__
 
 ## TODO:
 - [ ] move all settings to seperate window [touchbar-edit-view.js](lib/touchbar-edit-view.js)
-  - Add buttons
-  - Change buttons (label, command, color)
+  - Add elements
+  - Change commands (label, command, color)
   - Different Profiles
 - [ ] show different objects on TouchBar depending on programming language (.md -> bold, italic...)
