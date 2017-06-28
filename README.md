@@ -8,7 +8,7 @@ Add touchbar elements to atom
 `apm install touchbar`
 
 ## How to use
-Press `shift-alt-o` to toggle touchbar
+Press `ctrl-alt-o` to toggle touchbar
 
 ## Current features:
 - (Un)comment code
