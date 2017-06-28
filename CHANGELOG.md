@@ -8,3 +8,6 @@
 
 ## 0.3.6 - Initial customization
 * change touchbar items in `lib/config.json`
+
+## 0.3.7 - Further elements
+* add TouchBarPopover & TouchBarGroup

@@ -1,6 +1,5 @@
 {
-  "elements": [
-    {
+  "elements": [{
       "name": "my-new-label",
       "type": "label",
       "label": "my 🔥 label",
@@ -12,21 +11,33 @@
       "size": "small"
     },
     {
-      "name": "comment-button",
-      "type": "button",
-      "label": "//",
-      "command": "editor:toggle-line-comments",
-      "color": "#5712d6"
+      "type": "popover",
+      "label": "popover",
+      "elements": [{
+          "name": "comment-button",
+          "type": "button",
+          "label": "//",
+          "command": "editor:toggle-line-comments",
+          "color": "#5712d6"
+        },
+        {
+          "name": "beautify-button",
+          "type": "button",
+          "label": "💅",
+          "command": "atom-beautify:beautify-editor",
+          "color": "#83FF8F"
+        },
+        {
+          "name": "color-picker",
+          "type": "color-picker"
+        }
+      ]
     },
     {
       "name": "toggle-command-palette",
       "type": "button",
       "label": "🎨",
       "command": "command-palette:toggle"
-    },
-    {
-      "name": "color-picker",
-      "type": "color-picker"
     }
   ]
 }
