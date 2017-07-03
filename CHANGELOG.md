@@ -11,3 +11,7 @@
 
 ## 0.3.7 - Further elements
 * add TouchBarPopover & TouchBarGroup
+
+## 0.3.9 - Emoji Bar
+* Initial emoji bar implementation 👩‍🎨
+* add scrubber
