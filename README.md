@@ -15,10 +15,14 @@ Press `ctrl-alt-o` to toggle touchbar
 - Toggle Command Palette
 - Color picker
 - spacer
+- scrubber
 - Change items in `lib/config.json`
 - customize items (commands, labels, colors)
 
 ![touchbar screenshot](touch_screenshot.png)
+
+Experimental emoji bar
+![touchbar screenshot](touch_screenshot_2.png)
 
 ## TODO:
 - [ ] move all settings to seperate window [touchbar-edit-view.js](lib/touchbar-edit-view.js)

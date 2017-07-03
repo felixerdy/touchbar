@@ -1,7 +1,7 @@
 {
   "name": "touchbar",
   "main": "./lib/touchbar",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "description": "Add touchbar elements to atom",
   "keywords": [],
   "activationCommands": {
