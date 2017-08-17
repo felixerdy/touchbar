@@ -4,9 +4,6 @@
   "version": "0.3.11",
   "description": "Add touchbar elements to atom",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "touchbar:toggle"
-  },
   "repository": "https://github.com/felixerdy/touchbar",
   "license": "MIT",
   "engines": {
