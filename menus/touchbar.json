@@ -17,10 +17,6 @@
             {
               "label": "Toggle",
               "command": "touchbar:toggle"
-            },
-            {
-              "label": "Edit",
-              "command": "touchbar:edit"
             }
           ]
         }
