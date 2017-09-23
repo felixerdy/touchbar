@@ -22,7 +22,14 @@ Experimental emoji bar
 ![touchbar screenshot](touch_screenshot_2.png)
 
 ## How to change elements
-- Change items in `lib/config.json`
+
+Go to Settings -> Packages -> touchbar and update the `Elements` input. This input must be a valid json array of elements.
+
+Example:
+
+```js
+[{ "name": "my-new-label", "type": "label", "label": "my 🔥 label", "color": "#FF9300" }, { "name": "spacer", "type": "spacer", "size": "small" }, { "name": "comment-button", "type": "button", "label": "//", "command": "editor:toggle-line-comments", "color": "#5712d6" }, { "name": "beautify-button", "type": "button", "label": "💅", "command": "atom-beautify:beautify-editor", "color": "#83FF8F" }, { "name": "color-picker", "type": "color-picker" }, { "type": "popover", "label": "😄", "elements": [{ "name": "emoji-scrubber", "type": "scrubber", "label": "😄", "items": "emojis" } ] }, { "name": "toggle-command-palette", "type": "button", "label": "🎨", "command": "command-palette:toggle" }]
+```
 
 ## TODO:
 - [ ] move all settings to seperate window [touchbar-edit-view.js](lib/touchbar-edit-view.js)
