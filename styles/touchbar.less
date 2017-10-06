@@ -4,5 +4,37 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.touchbar {
+.edit-heading {
+  margin: 20px;
+  font-size: @component-icon-size;
+}
+
+.element-panel {
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 2px;
+  display: flex;
+}
+
+select {
+  flex-grow: 1;
+}
+
+input[type=text], select {
+  margin-left: 10px;
+  background-color: @input-background-color;
+  border-color: @input-border-color;
+  font-size: @input-font-size;
+  padding: 2px;
+}
+
+.label {
+  flex-grow: 2;
+}
+.command {
+  flex-grow: 4;
+}
+.color {
+  flex-grow: 1;
 }
