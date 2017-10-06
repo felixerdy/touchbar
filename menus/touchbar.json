@@ -17,6 +17,10 @@
             {
               "label": "Toggle",
               "command": "touchbar:toggle"
+            },
+            {
+              "label": "Edit Touchbar",
+              "command": "touchbar:edit"
             }
           ]
         }
