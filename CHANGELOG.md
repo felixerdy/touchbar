@@ -15,3 +15,6 @@
 ## 0.3.9 - Emoji Bar
 * Initial emoji bar implementation 👩‍🎨
 * add scrubber
+
+## 0.4.4 - Edit Touchbar
+* Window to edit Touchbar

@@ -9,12 +9,15 @@ Add touchbar elements to atom
 Touchbar will be loaded on startup.
 Press `ctrl-alt-o` to toggle touchbar
 
-## Current features:
+## Current shipped features:
+- Labels
 - (Un)comment code
 - Beautify code (you will need [atom-beautify](https://atom.io/packages/atom-beautify))
 - Color picker
 - Emoji Picker
 - Toggle Command Palette
+- Edit Touchbar
+- Toggle GitHub Tab
 
 ![touchbar screenshot](touch_screenshot.png)
 
@@ -23,7 +26,14 @@ Experimental emoji bar
 
 ## How to change elements
 
-Go to Settings -> Packages -> touchbar and update the `Elements` input. This input must be a valid json array of elements.
+There is now a basic editing function build in. Press the `Edit Touchbar` button on your Touchbar or go to `Packages -> touchbar -> Edit Touchbar`. You can choose the type of your element as well as the label, command and color.
+###### Works best with buttons and labels. Keep in mind that touchbar currently only works in the text editor window!
+
+![touchbar edit screenshot](touchbar-edit.png)
+
+#### More advanced way:
+
+Go to `Settings -> Packages -> touchbar` and update the `Elements` input. This input must be a valid json array of elements.
 
 Example:
 
@@ -34,6 +44,5 @@ Example:
 ## TODO:
 - [ ] move all settings to seperate window [touchbar-edit-view.js](lib/touchbar-edit-view.js)
   - Add elements
-  - Change commands (label, command, color)
   - Different Profiles
 - [ ] show different objects on TouchBar depending on programming language (.md -> bold, italic...)
