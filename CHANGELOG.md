@@ -18,3 +18,7 @@
 
 ## 0.4.4 - Edit Touchbar
 * Window to edit Touchbar
+
+## 1.7 - Editor UI Updates by [fand](https://github.com/fand)
+* `Add` and `Remove` Button for items
+* Sortable Items 🎉
