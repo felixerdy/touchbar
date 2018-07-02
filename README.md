@@ -15,6 +15,7 @@ Press `ctrl-alt-o` to toggle touchbar
 - Color picker
 - Emoji Picker
 - Edit Touchbar
+- Set icons
 
 ![touchbar screenshot](touch_screenshot.png)
 
@@ -35,5 +36,5 @@ Go to `Settings -> Packages -> touchbar` and update the `Elements` input. This i
 Example:
 
 ```js
-[{"type":"label","name":"Config 1524399902796","label":"Atom Touchbar","color":"#e0fcf0"},{"name":"comment-button","type":"button","label":"//","command":"editor:toggle-line-comments","color":"#5712d6"},{"name":"color-picker","type":"color-picker"},{"name":"spacer","type":"button","size":"small","label":"Tree","command":"tree-view:toggle","color":"#00716c"},{"name":"toggle-command-palette","type":"button","label":"🎨","command":"command-palette:toggle"},{"type":"popover","label":"😄","elements":[{"name":"emoji-scrubber","type":"scrubber","label":"😄","items":"emojis"}],"command":""},{"name":"toggle-github","type":"button","label":"GitHub","color":"#919191","command":"github:toggle-github-tab"},{"name":"edit-touchbar","type":"button","label":"Touchbar","command":"touchbar:edit","color":"#6b2f4f"}]
+[{"type":"label","name":"Config 1524399902796","label":"Atom Touchbar","color":"#e0fcf0"},{"name":"comment-button","type":"button","label":"//","command":"editor:toggle-line-comments","color":"#5712d6","icon":"","iconColor":"default"},{"name":"color-picker","type":"color-picker"},{"name":"spacer","type":"button","size":"small","label":"","command":"tree-view:toggle","color":"#00716c","icon":"NSTouchBarSidebarTemplate","iconColor":"white"},{"name":"toggle-command-palette","type":"button","label":"🎨","command":"command-palette:toggle"},{"type":"popover","label":"😄","elements":[{"name":"emoji-scrubber","type":"scrubber","label":"😄","items":"emojis"}],"command":"","icon":""},{"name":"toggle-github","type":"button","label":"GitHub","color":"#919191","command":"github:toggle-github-tab"},{"name":"edit-touchbar","type":"button","label":"Touchbar","command":"touchbar:edit","color":"#6b2f4f"}]
 ```
