@@ -20,9 +20,6 @@ Press `ctrl-alt-o` to toggle touchbar
 
 ![touchbar screenshot](touch_screenshot.png)
 
-Experimental emoji bar
-![touchbar screenshot](touch_screenshot_2.png)
-
 ## How to change elements
 
 There is now a basic editing function build in. Press the `Edit Touchbar` button on your Touchbar or go to `Packages -> touchbar -> Edit Touchbar`. You can choose the type of your element as well as the label, command and color.
