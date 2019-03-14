@@ -1,12 +1,4 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle touchbar",
-        "command": "touchbar:toggle"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
@@ -14,10 +6,6 @@
         {
           "label": "touchbar",
           "submenu": [
-            {
-              "label": "Toggle",
-              "command": "touchbar:toggle"
-            },
             {
               "label": "Edit Touchbar",
               "command": "touchbar:edit"

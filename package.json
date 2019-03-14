@@ -11,5 +11,15 @@
   },
   "dependencies": {
     "etch": "^0.12.4"
-  }
+  },
+  "consumedServices": {
+    "touchbar-registry": {
+      "versions": {
+        "0.1.0": "consumeTouchBar"
+      }
+    }
+  },
+  "package-deps": [
+    "touchbar-registry"
+  ]
 }
