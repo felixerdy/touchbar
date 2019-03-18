@@ -2,6 +2,44 @@
 # yarn lockfile v1
 
 
+atom-package-deps@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-5.0.0.tgz#bd54b734b9288ed54a7b0b16995bf3ce7a45ca2f"
+  integrity sha512-C5Z2V68GuZvuLowrqQ8O8+BE8P4Elhxuc6eZiZ0770CH2e2R/Ausz5VebbDxVOSedFwAaz3CzQJYHayqZ5wKQg==
+  dependencies:
+    sb-fs "^3.0.0"
+    semver "^5.6.0"
+
 etch@^0.12.4:
   version "0.12.4"
   resolved "https://registry.yarnpkg.com/etch/-/etch-0.12.4.tgz#6c8b9500eeeda22a1e0962f58f94e2cf9573ac92"
+
+is-utf8@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/is-utf8/-/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
+  integrity sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI=
+
+sb-fs@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/sb-fs/-/sb-fs-3.0.0.tgz#fbdcdd3010e80a1b8e27490cef336064974203b8"
+  integrity sha1-+9zdMBDoChuOJ0kM7zNgZJdCA7g=
+  dependencies:
+    sb-promisify "^2.0.1"
+    strip-bom-buf "^1.0.0"
+
+sb-promisify@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/sb-promisify/-/sb-promisify-2.0.2.tgz#4277a54754488aa9675d886e354db894c9bdc981"
+  integrity sha1-QnelR1RIiqlnXYhuNU24lMm9yYE=
+
+semver@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
+  integrity sha512-RS9R6R35NYgQn++fkDWaOmqGoj4Ek9gGs+DPxNUZKuwE183xjJroKvyo1IzVFeXvUrvmALy6FWD5xrdJT25gMg==
+
+strip-bom-buf@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/strip-bom-buf/-/strip-bom-buf-1.0.0.tgz#1cb45aaf57530f4caf86c7f75179d2c9a51dd572"
+  integrity sha1-HLRar1dTD0yvhsf3UXnSyaUd1XI=
+  dependencies:
+    is-utf8 "^0.2.1"
