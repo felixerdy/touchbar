@@ -17,6 +17,7 @@ Press `ctrl-alt-o` to toggle touchbar
 - Emoji Picker
 - Edit Touchbar
 - Set Icons
+  - You can either use the names provided here: http://hetima.github.io/fucking_nsimage_syntax/ (without @ and ") or use your own icons and provide an absolute path
 - Insert Text (e.g. `{` or `[`). Please use `Button Text Insert` and insert your desired text in the command input
 
 ![touchbar screenshot](touch_screenshot.png)
